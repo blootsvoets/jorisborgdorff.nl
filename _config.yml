@@ -5,7 +5,7 @@ baseurl: ''
 # compass configuration
 compass:
   # an avatar or logo (optional)
-  logo: "/images/compass.png"
+  logo: https://www.esciencecenter.nl/img/team/joris-borgdorff-web.jpg
   # author will appear under the avatar (optional)
   author: "Joris Borgdorff"
   # tagline will appear under the title (optional)

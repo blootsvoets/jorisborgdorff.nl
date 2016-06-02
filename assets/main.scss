@@ -2,11 +2,11 @@
 ---
 
 $text-color: #46433A;
-$anchor-text-color: #CE534D;
-$background-color: #F1EED9;
+$anchor-text-color: #5f75ce;
+$background-color: #f1ded9;
 
 body {
-	font-family: 'Vollkorn', serif;
+	font-family: 'Vollkorn', 'Garamond', serif;
 	color: $text-color;
 	background-color: $background-color;
 }
@@ -37,15 +37,14 @@ a:hover {
 
 /*** main content list ***/
 .main-list-item {
-	font-weight: bold;
-	font-size: 1.2em;
+	font-weight: lighter;
 	margin: 0.8em 0;
 }
 
 /* override the left margin added by font awesome for the main content list,
 since it must be aligned with the content */
 .fa-ul.main-list {
-	margin-left: 0;
+	margin-left: 0px;
 }
 
 /* list icons */
